@@ -15,7 +15,7 @@ const ProceedToCheckout = ({
   delivery,
 }: ProceedToCheckoutProps) => {
   const handleOrder = () => {
-    ToastAndroid.show('Ordered successfully', ToastAndroid.SHORT);
+    ToastAndroid.show('Order placed ...', ToastAndroid.SHORT);
   };
   return (
     <View style={styles.__container}>
